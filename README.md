@@ -17,11 +17,11 @@ he script will perform following steps:
 - UCI HAR Dataset/train/Y_train.txt
 - UCI HAR Dataset/train/subject_train.txt
 
-Step No. 1: the script will merge the training and the test sets to create one data set. The script will then assign variable names to the combined data set extracted from "features.txt":
+# Step No. 1: the script will merge the training and the test sets to create one data set. The script will then assign variable names to the combined data set extracted from "features.txt":
 
-Step No. 2: the script will extract only the measurements on the mean and standard deviation for each measurement.
+# Step No. 2: the script will extract only the measurements on the mean and standard deviation for each measurement.
 
-Step No. 3: the script will assign descriptive activity names to name the activities in the data set.
+# Step No. 3: the script will assign descriptive activity names to name the activities in the data set.
 
 # Step No. 4: the script will appropriately label the the dataset with descriptive variable names and create a new text file with tidy data set named as "tidydataset.txt" in the working directory.
 
