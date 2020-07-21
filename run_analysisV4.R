@@ -57,3 +57,7 @@ rm(activitylables,datalables,dataset,datasubject,features,joindf,testset,testsub
 
 
 secondtidydataset <- tidydataset %>% group_by(activity,subject) %>% summarise_all(mean)
+
+write.table("tidydataset.txT=t", row.names = FALSE)
+
+write.table("secondtidydataset.txT=t", row.names = FALSE)
